@@ -923,3 +923,4 @@ async def givepoint_Kwinston_100(ctx):
 	await ctx.send(xy % z)
 
 token = os.environ.get('BOT_TOKEN')
+bot.run(str(token))
